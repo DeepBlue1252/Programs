@@ -90,8 +90,8 @@ def main():
     f = open("HarryPotterTesting.txt",'r', encoding="utf8")
     fs = open("SmallerStory.txt",'r', encoding="utf8")
 
-    openai.organization = "org-uqp71zJlH9G3BhGunVAStNc0"
-    openai.api_key = "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"
+    openai.organization = ""
+    openai.api_key = ""
     #openai.Model.list()
 
     
