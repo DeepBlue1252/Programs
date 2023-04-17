@@ -10,7 +10,7 @@ def imageURL(text):
     image_url = response['data'][0]['url']
 
 def main():
-    openai.organization = "org-uqp71zJlH9G3BhGunVAStNc0"
-    openai.api_key = "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"
+    openai.organization = "KEY"
+    openai.api_key = "Key"
     url = imageURL(text)
     print(url)
